@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ClinicCreateTabFragments.CreatePatientFragment">
+
+    <EditText
+        android:id="@+id/createPatientId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:maxLength="11"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_baseline_123"
+        android:drawablePadding="8dp"
+        android:hint="@string/patient_id"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/black_edit_text_bg"/>
+
+    <EditText
+        android:id="@+id/createPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:maxLength="30"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_black_person"
+        android:drawablePadding="8dp"
+        android:hint="Patient Name"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/black_edit_text_bg"/>
+
+    <EditText
+        android:id="@+id/createPatientSurname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="30"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_black_person"
+        android:drawablePadding="8dp"
+        android:hint="Patient Surname"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/black_edit_text_bg"/>
+
+    <EditText
+        android:id="@+id/createPatientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:maxLength="20"
+        android:drawableStart="@drawable/ic_baseline_phone"
+        android:drawablePadding="8dp"
+        android:hint="Phone Number"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/black_edit_text_bg"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        app:boxCornerRadiusTopStart="20dp"
+        android:hint="Gender"
+        android:layout_marginTop="10dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/genderAutoCompleteText"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_black_person"
+            android:drawablePadding="8dp"
+            android:paddingStart="12dp"
+            android:layout_height="50dp"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <EditText
+        android:id="@+id/createPatientAge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_baseline_123"
+        android:drawablePadding="8dp"
+        android:hint="Age"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/black_edit_text_bg"/>
+
+    <EditText
+        android:id="@+id/createPatientPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_black_lock"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/black_edit_text_bg"/>
+
+    <EditText
+        android:id="@+id/createPatientPasswordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_black_lock"
+        android:drawablePadding="8dp"
+        android:hint="Confirm Password"
+        android:paddingStart="12dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/black_edit_text_bg"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createPatientBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Patient"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/black_edit_text_bg"
+        android:backgroundTint="#3EB489"
+        android:textColor="@color/white"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

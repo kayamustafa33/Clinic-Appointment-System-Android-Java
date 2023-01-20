@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212F3D"
+    android:gravity="center"
+    tools:context=".View.StartScreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/clinicimage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clinic_appointment_system"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clinic Login"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="goToClinicLogin"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/start_screen_bg"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:onClick="goToPatientLogin"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8BC34A"
+        android:background="@drawable/start_screen_bg"
+        android:layout_marginStart="50dp"
+        android:text="Patient Login"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

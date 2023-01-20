@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Clinic Appointment System</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="doctor_login">Doctor Login</string>
+    <string name="secretary_login">Secretary Login</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="secretary_id">Secretary Id</string>
+    <string name="doctor_id">Doctor Id</string>
+    <string name="clinic_appointment_system">Clinic Appointment System</string>
+    <string name="patient_name_and_surname">Patient Name and Surname</string>
+    <string name="doctor_s_name">Doctor\'s Name</string>
+    <string name="appointment_date">Appointment Date</string>
+    <string name="appointment_id">Appointment ID</string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="set_status">Set Status</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/all_appointment_bottom"
+        android:title="Appointment History"
+        android:icon="@drawable/ic_appointment"/>
+
+    <item android:id="@+id/createAppointmentOrPatient"
+        android:title="Create"
+        android:icon="@drawable/ic_baseline_add"/>
+
+    <item android:id="@+id/all_patients_bottom"
+        android:title="Patients History"
+        android:icon="@drawable/ic_patients"/>
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person"/>
+</menu>
